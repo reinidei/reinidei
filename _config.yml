@@ -1,0 +1,34 @@
+# Build settings
+#permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: Reinidei
+description: "Blog about the small things"
+keywords: ""
+url: http://reinidei.nu
+baseurl: ""
+
+# google_analytics: UA-52446115-1
+
+vars:
+  logo: /images/logo.png
+
+# navbar pages
+navbar:
+  - slug: fi
+    title: fi
+  - slug: en
+    title: en
+
+disqus_site_shortname: reinidei
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock",
+".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
