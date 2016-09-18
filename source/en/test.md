@@ -1,3 +1,9 @@
+---
+layout: page
+title: Test
+permalink: /test/
+---
+
 Welcome to StackEdit!
 ===================
 
